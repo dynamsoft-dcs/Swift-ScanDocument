@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689EEB001FD8ED75009A3B9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EEAFF1FD8ED75009A3B9F /* AppDelegate.swift */; };
+		689EEB021FD8ED75009A3B9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EEB011FD8ED75009A3B9F /* ViewController.swift */; };
+		689EEB051FD8ED75009A3B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689EEB031FD8ED75009A3B9F /* Main.storyboard */; };
+		689EEB081FD8ED75009A3B9F /* ScanDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 689EEB061FD8ED75009A3B9F /* ScanDocument.xcdatamodeld */; };
+		689EEB0A1FD8ED75009A3B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689EEB091FD8ED75009A3B9F /* Assets.xcassets */; };
+		689EEB0D1FD8ED75009A3B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689EEB0B1FD8ED75009A3B9F /* LaunchScreen.storyboard */; };
+		689EEB151FD8ED8A009A3B9F /* DynamsoftCameraSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689EEB141FD8ED8A009A3B9F /* DynamsoftCameraSDK.framework */; };
+		689EEB171FD8ED90009A3B9F /* DynamsoftCameraSDKResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 689EEB161FD8ED90009A3B9F /* DynamsoftCameraSDKResource.bundle */; };
+		689EEB1A1FD8EDAF009A3B9F /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 689EEB191FD8EDAF009A3B9F /* libstdc++.tbd */; };
+		689EEB1D1FD8EDB6009A3B9F /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 689EEB1B1FD8EDB6009A3B9F /* libstdc++.6.0.9.tbd */; };
+		689EEB1E1FD8EDB6009A3B9F /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 689EEB1C1FD8EDB6009A3B9F /* libstdc++.6.tbd */; };
+		689EEB201FD8EDBD009A3B9F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 689EEB1F1FD8EDBD009A3B9F /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		689EEAFC1FD8ED75009A3B9F /* ScanDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689EEAFF1FD8ED75009A3B9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		689EEB011FD8ED75009A3B9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		689EEB041FD8ED75009A3B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689EEB071FD8ED75009A3B9F /* ScanDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScanDocument.xcdatamodel; sourceTree = "<group>"; };
+		689EEB091FD8ED75009A3B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689EEB0C1FD8ED75009A3B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689EEB0E1FD8ED75009A3B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689EEB141FD8ED8A009A3B9F /* DynamsoftCameraSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamsoftCameraSDK.framework; sourceTree = "<group>"; };
+		689EEB161FD8ED90009A3B9F /* DynamsoftCameraSDKResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DynamsoftCameraSDKResource.bundle; sourceTree = "<group>"; };
+		689EEB191FD8EDAF009A3B9F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		689EEB1B1FD8EDB6009A3B9F /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		689EEB1C1FD8EDB6009A3B9F /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		689EEB1F1FD8EDBD009A3B9F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		689EEB211FD9045E009A3B9F /* CaptureDocument-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaptureDocument-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689EEAF91FD8ED75009A3B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689EEB201FD8EDBD009A3B9F /* libsqlite3.0.tbd in Frameworks */,
+				689EEB1D1FD8EDB6009A3B9F /* libstdc++.6.0.9.tbd in Frameworks */,
+				689EEB1E1FD8EDB6009A3B9F /* libstdc++.6.tbd in Frameworks */,
+				689EEB1A1FD8EDAF009A3B9F /* libstdc++.tbd in Frameworks */,
+				689EEB151FD8ED8A009A3B9F /* DynamsoftCameraSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689EEAF31FD8ED75009A3B9F = {
+			isa = PBXGroup;
+			children = (
+				689EEAFE1FD8ED75009A3B9F /* ScanDocument */,
+				689EEAFD1FD8ED75009A3B9F /* Products */,
+				689EEB181FD8EDAF009A3B9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		689EEAFD1FD8ED75009A3B9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689EEAFC1FD8ED75009A3B9F /* ScanDocument.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689EEAFE1FD8ED75009A3B9F /* ScanDocument */ = {
+			isa = PBXGroup;
+			children = (
+				689EEB161FD8ED90009A3B9F /* DynamsoftCameraSDKResource.bundle */,
+				689EEB141FD8ED8A009A3B9F /* DynamsoftCameraSDK.framework */,
+				689EEAFF1FD8ED75009A3B9F /* AppDelegate.swift */,
+				689EEB011FD8ED75009A3B9F /* ViewController.swift */,
+				689EEB211FD9045E009A3B9F /* CaptureDocument-Bridging-Header.h */,
+				689EEB031FD8ED75009A3B9F /* Main.storyboard */,
+				689EEB091FD8ED75009A3B9F /* Assets.xcassets */,
+				689EEB0B1FD8ED75009A3B9F /* LaunchScreen.storyboard */,
+				689EEB0E1FD8ED75009A3B9F /* Info.plist */,
+				689EEB061FD8ED75009A3B9F /* ScanDocument.xcdatamodeld */,
+			);
+			path = ScanDocument;
+			sourceTree = "<group>";
+		};
+		689EEB181FD8EDAF009A3B9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689EEB1F1FD8EDBD009A3B9F /* libsqlite3.0.tbd */,
+				689EEB1B1FD8EDB6009A3B9F /* libstdc++.6.0.9.tbd */,
+				689EEB1C1FD8EDB6009A3B9F /* libstdc++.6.tbd */,
+				689EEB191FD8EDAF009A3B9F /* libstdc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689EEAFB1FD8ED75009A3B9F /* ScanDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689EEB111FD8ED75009A3B9F /* Build configuration list for PBXNativeTarget "ScanDocument" */;
+			buildPhases = (
+				689EEAF81FD8ED75009A3B9F /* Sources */,
+				689EEAF91FD8ED75009A3B9F /* Frameworks */,
+				689EEAFA1FD8ED75009A3B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanDocument;
+			productName = ScanDocument;
+			productReference = 689EEAFC1FD8ED75009A3B9F /* ScanDocument.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689EEAF41FD8ED75009A3B9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dynamsoft;
+				TargetAttributes = {
+					689EEAFB1FD8ED75009A3B9F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 689EEAF71FD8ED75009A3B9F /* Build configuration list for PBXProject "ScanDocument" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689EEAF31FD8ED75009A3B9F;
+			productRefGroup = 689EEAFD1FD8ED75009A3B9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689EEAFB1FD8ED75009A3B9F /* ScanDocument */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689EEAFA1FD8ED75009A3B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689EEB0D1FD8ED75009A3B9F /* LaunchScreen.storyboard in Resources */,
+				689EEB0A1FD8ED75009A3B9F /* Assets.xcassets in Resources */,
+				689EEB051FD8ED75009A3B9F /* Main.storyboard in Resources */,
+				689EEB171FD8ED90009A3B9F /* DynamsoftCameraSDKResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689EEAF81FD8ED75009A3B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689EEB021FD8ED75009A3B9F /* ViewController.swift in Sources */,
+				689EEB081FD8ED75009A3B9F /* ScanDocument.xcdatamodeld in Sources */,
+				689EEB001FD8ED75009A3B9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		689EEB031FD8ED75009A3B9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689EEB041FD8ED75009A3B9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689EEB0B1FD8ED75009A3B9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689EEB0C1FD8ED75009A3B9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689EEB0F1FD8ED75009A3B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		689EEB101FD8ED75009A3B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689EEB121FD8ED75009A3B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanDocument",
+				);
+				INFOPLIST_FILE = ScanDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dynamsoft.ScanDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$PROJECT/CaptureDocument-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		689EEB131FD8ED75009A3B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanDocument",
+				);
+				INFOPLIST_FILE = ScanDocument/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dynamsoft.ScanDocument;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$PROJECT/CaptureDocument-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689EEAF71FD8ED75009A3B9F /* Build configuration list for PBXProject "ScanDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689EEB0F1FD8ED75009A3B9F /* Debug */,
+				689EEB101FD8ED75009A3B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689EEB111FD8ED75009A3B9F /* Build configuration list for PBXNativeTarget "ScanDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689EEB121FD8ED75009A3B9F /* Debug */,
+				689EEB131FD8ED75009A3B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		689EEB061FD8ED75009A3B9F /* ScanDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				689EEB071FD8ED75009A3B9F /* ScanDocument.xcdatamodel */,
+			);
+			currentVersion = 689EEB071FD8ED75009A3B9F /* ScanDocument.xcdatamodel */;
+			path = ScanDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 689EEAF41FD8ED75009A3B9F /* Project object */;
+}
