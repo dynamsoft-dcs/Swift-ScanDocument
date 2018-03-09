@@ -22,7 +22,8 @@ class ViewController: UIViewController,DcsUIVideoViewDelegate,DcsUIDocumentEdito
         let titleItem = UINavigationItem(title: "ScanDocument");
         navigatorBar.pushItem(titleItem, animated: true);
         self.view.addSubview(navigatorBar);
-        
+        ///////////////////set the log level//////////////////
+		DcsView.setLogLevel(DLLE_DEBUG);
         /////////////add dcsView         ////////////////////////////////
         dcsView = DcsView.self.init(frame:CGRect.init(x: 0, y: navigatorBar.frame.height, width: self.view.frame.size.width, height: self.view.frame.size.height-navigatorBar.frame.height));// init(0, 0, self.view.frame.size.width, self.view.frame.size.height));
         dcsView.currentView = DVE_IMAGEGALLERYVIEW;
@@ -80,7 +81,7 @@ class ViewController: UIViewController,DcsUIVideoViewDelegate,DcsUIDocumentEdito
         
     }
     
-    func onPostCapture(_ sender: Any!) {
+    func onPostCapture(_ sender: Any!, image: DcsImage!) {
         print("PostCapture invoked");
     }
     
